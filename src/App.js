@@ -1,25 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import CO1componente from './components/CO1componente';
+import CO2contador from './components/CO2contador';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <h2>Curso de Titulacion</h2>
-          <p>Mateo Quispe Pacheco</p>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <CO1componente/>
+      <CO2contador/>
     </div>
   );
 }
