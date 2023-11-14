@@ -1,5 +1,6 @@
 import './App.css';
 import AppLista from './protegido/AppLista';
+import './css/estilos.css';
 
 function App() {
   return (

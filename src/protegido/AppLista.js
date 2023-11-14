@@ -15,9 +15,9 @@ const AppLista = (props) => {
       setDocBD(xDoc);
     });
   }
-  frRead();
+  // frRead();
 
-  // useEffect(()=>{ frRead();},[props.idActual]);
+  useEffect(()=>{ frRead();},[props.idActual]);
 
   const [idActual, setIdActual] = useState("");
   const fnDelete = async (xId) => {
