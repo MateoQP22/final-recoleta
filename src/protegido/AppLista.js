@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import AppForm from './AppForm'
 import { collection, deleteDoc, doc, onSnapshot, query } from 'firebase/firestore';
 import { db } from '../conexion/firebase';
@@ -16,6 +16,8 @@ const AppLista = (props) => {
     });
   }
   frRead();
+
+  // useEffect(()=>{ frRead();},[props.idActual]);
 
   const [idActual, setIdActual] = useState("");
   const fnDelete = async (xId) => {
