@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/IE-recoleta/static/css/main.cecd509a.css",
+    "main.js": "/IE-recoleta/static/js/main.fc1e7b0a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/IE-recoleta/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/IE-recoleta/index.html",
+    "main.cecd509a.css.map": "/IE-recoleta/static/css/main.cecd509a.css.map",
+    "main.fc1e7b0a.js.map": "/IE-recoleta/static/js/main.fc1e7b0a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/IE-recoleta/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cecd509a.css",
+    "static/js/main.fc1e7b0a.js"
+  ]
+}
